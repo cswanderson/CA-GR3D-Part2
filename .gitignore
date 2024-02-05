@@ -75,6 +75,11 @@ sysinfo.txt
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+/[Aa]ssets/NatureManufactureAssets/
+/[Aa]ssets/Low-latencyMultichannelAudio/
+/[Aa]ssets/ArchVizPROInteriorVol.5/
+/[Aa]ssets/extOSC/
+
 # Ignoring GR3D package since it's propietary. 
 # If your project launches with compile errors, 
 # close it, add the package to the packages 
