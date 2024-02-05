@@ -79,6 +79,7 @@ sysinfo.txt
 /[Aa]ssets/Low-latencyMultichannelAudio/
 /[Aa]ssets/ArchVizPROInteriorVol.5/
 /[Aa]ssets/extOSC/
+/[Aa]ssets/ArchVizPRO Interior Vol.5/
 
 # Ignoring GR3D package since it's propietary. 
 # If your project launches with compile errors, 
