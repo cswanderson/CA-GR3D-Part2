@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 145.0, 1330.0, 560.0 ],
+		"rect" : [ 101.0, 99.0, 930.0, 550.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,43 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 272.0, 462.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 272.0, 493.0, 236.0, 22.0 ],
+					"text" : "/room/1/reverb/roomsize 0, /room/1/mute 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 3,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 61.0, 504.5, 50.0, 49.0 ],
+					"text" : "/window/openorclose"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-106",
 					"maxclass" : "newobj",
@@ -161,7 +198,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 61.0, 372.5, 121.0, 47.0 ],
+					"patching_rect" : [ 61.0, 372.5, 121.0, 45.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 0 ],
@@ -185,10 +222,11 @@
 					"clipheight" : 20.857142857142858,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds/UT1.wav",
+								"absolutepath" : "UT1.wav",
 								"filename" : "UT1.wav",
 								"filekind" : "audiofile",
 								"id" : "u146004873",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -196,10 +234,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds/UT2.wav",
+								"absolutepath" : "UT2.wav",
 								"filename" : "UT2.wav",
 								"filekind" : "audiofile",
 								"id" : "u571004867",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -207,10 +246,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds/UT3.wav",
+								"absolutepath" : "UT3.wav",
 								"filename" : "UT3.wav",
 								"filekind" : "audiofile",
 								"id" : "u418004868",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -218,10 +258,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds/UT4.wav",
+								"absolutepath" : "UT4.wav",
 								"filename" : "UT4.wav",
 								"filekind" : "audiofile",
 								"id" : "u097004869",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -229,10 +270,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds/UT5.wav",
+								"absolutepath" : "UT5.wav",
 								"filename" : "UT5.wav",
 								"filekind" : "audiofile",
 								"id" : "u720004870",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -240,10 +282,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds/UT6.wav",
+								"absolutepath" : "UT6.wav",
 								"filename" : "UT6.wav",
 								"filekind" : "audiofile",
 								"id" : "u371004871",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -251,10 +294,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds/UT7.wav",
+								"absolutepath" : "UT7.wav",
 								"filename" : "UT7.wav",
 								"filekind" : "audiofile",
 								"id" : "u917004872",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -342,7 +386,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 995.5, 545.0, 185.0, 22.0 ],
+					"patching_rect" : [ 995.5, 518.0, 185.0, 22.0 ],
 					"text" : "sprintf /source/1/aed %.2f 0. 0.32"
 				}
 
@@ -417,7 +461,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 939.0, 133.0, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -780,7 +824,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 254.0, 493.0, 329.0, 22.0 ],
+					"patching_rect" : [ 254.0, 526.0, 329.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -796,7 +840,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 124.0, 537.0, 235.0, 22.0 ],
+					"patching_rect" : [ 124.0, 559.0, 235.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -935,7 +979,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.0, 537.0, 81.0, 23.0 ],
+					"patching_rect" : [ 378.0, 559.0, 81.0, 23.0 ],
 					"text" : "startwindow"
 				}
 
@@ -947,7 +991,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 478.0, 537.0, 35.0, 22.0 ],
+					"patching_rect" : [ 478.0, 559.0, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -1348,6 +1392,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-35", 0 ]
 				}
@@ -1385,6 +1436,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1576,7 +1634,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"order" : 1,
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
+					"order" : 0,
 					"source" : [ "obj-76", 0 ]
 				}
 
@@ -1759,78 +1826,77 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Syn1.maxpat",
-				"bootpath" : "/Volumes/FastPuppy/CA-GR3D-Project",
+				"bootpath" : "D:/Git Repos/CA-GR3D-Project",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UT1.wav",
-				"bootpath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds",
+				"bootpath" : "D:/Git Repos/CA-GR3D-Project/Assets/Sounds",
 				"patcherrelativepath" : "./Assets/Sounds",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UT2.wav",
-				"bootpath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds",
+				"bootpath" : "D:/Git Repos/CA-GR3D-Project/Assets/Sounds",
 				"patcherrelativepath" : "./Assets/Sounds",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UT3.wav",
-				"bootpath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds",
+				"bootpath" : "D:/Git Repos/CA-GR3D-Project/Assets/Sounds",
 				"patcherrelativepath" : "./Assets/Sounds",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UT4.wav",
-				"bootpath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds",
+				"bootpath" : "D:/Git Repos/CA-GR3D-Project/Assets/Sounds",
 				"patcherrelativepath" : "./Assets/Sounds",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UT5.wav",
-				"bootpath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds",
+				"bootpath" : "D:/Git Repos/CA-GR3D-Project/Assets/Sounds",
 				"patcherrelativepath" : "./Assets/Sounds",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UT6.wav",
-				"bootpath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds",
+				"bootpath" : "D:/Git Repos/CA-GR3D-Project/Assets/Sounds",
 				"patcherrelativepath" : "./Assets/Sounds",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UT7.wav",
-				"bootpath" : "/Volumes/FastPuppy/CA-GR3D-Project/Assets/Sounds",
+				"bootpath" : "D:/Git Repos/CA-GR3D-Project/Assets/Sounds",
 				"patcherrelativepath" : "./Assets/Sounds",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.gui.control.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/spat5/patchers",
-				"patcherrelativepath" : "../../../Users/io/Documents/Max 8/Packages/spat5/patchers",
+				"bootpath" : "C74:/packages/spat5-x64/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.oper.mxo",
-				"type" : "iLaX"
+				"name" : "spat5.oper.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "spat5.osc.route.mxo",
-				"type" : "iLaX"
+				"name" : "spat5.osc.route.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "spat5.spat~.mxo",
-				"type" : "iLaX"
+				"name" : "spat5.spat~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "thru.maxpat",
