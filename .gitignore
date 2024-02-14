@@ -85,7 +85,7 @@ sysinfo.txt
 /[Aa]ssets/Low-latency Multichannel Audio/
 /[Aa]ssets/LimitlessUnityDevelopment/
 /[Aa]ssets/AudioStream/
-
+/TestBuilds/
 
 # Ignoring GR3D package since it's propietary. 
 # If your project launches with compile errors, 
