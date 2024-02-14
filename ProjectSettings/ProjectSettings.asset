@@ -741,7 +741,7 @@ PlayerSettings:
     PS5: EXTOSC;UNITY_POST_PROCESSING_STACK_V2
     QNX: EXTOSC;UNITY_POST_PROCESSING_STACK_V2
     Stadia: EXTOSC;UNITY_POST_PROCESSING_STACK_V2
-    Standalone: EXTOSC;UNITY_POST_PROCESSING_STACK_V2
+    Standalone: EXTOSC;UNITY_POST_PROCESSING_STACK_V2;FMOD_LIVEUPDATE
     WebGL: EXTOSC;UNITY_POST_PROCESSING_STACK_V2
     XboxOne: EXTOSC;UNITY_POST_PROCESSING_STACK_V2
     tvOS: EXTOSC;UNITY_POST_PROCESSING_STACK_V2
@@ -862,4 +862,4 @@ PlayerSettings:
   hmiLoadingImage: {fileID: 0}
   platformRequiresReadableAssets: 0
   virtualTexturingSupportEnabled: 0
-  insecureHttpOption: 0
+  insecureHttpOption: 1
