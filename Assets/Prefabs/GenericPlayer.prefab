@@ -270,9 +270,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1695136065028628, guid: 24af6a7d444a9184b9b4f82fd7b11aa6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3610423538801108483}
-    - targetCorrespondingSourceObject: {fileID: 1695136065028628, guid: 24af6a7d444a9184b9b4f82fd7b11aa6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 278127432592715413}
     - targetCorrespondingSourceObject: {fileID: 1325608199551882, guid: 24af6a7d444a9184b9b4f82fd7b11aa6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4598504705797254022}
@@ -454,27 +451,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!320 &278127432592715413
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7888914225739978925}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f32556b0ff450a14d905043b013e2206, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -7102865048450327776, guid: f32556b0ff450a14d905043b013e2206, type: 2}
-    value: {fileID: 3610423538801108483}
-  - key: {fileID: -3877536204062624384, guid: f32556b0ff450a14d905043b013e2206, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: -4312000005209090653, guid: f32556b0ff450a14d905043b013e2206, type: 2}
-    value: {fileID: 0}
-  m_ExposedReferences:
-    m_References:
-    - a8352b10a18c8c344a699951187f5bcd: {fileID: 0}
