@@ -34,7 +34,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Basetexture:
-        m_Texture: {fileID: 2800000, guid: 4c91c938176a28e44b22f5398fd5184f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 951631ab54189f643956d255364fe292, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -160,7 +160,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.467
     - _GlossyReflections: 0
-    - _HueRange: 0
+    - _HueRange: 0.45
     - _IndexofRefraction: 1
     - _InteriortextureOnOff: 0
     - _Interiorwallstiling: 0
