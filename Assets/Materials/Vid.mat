@@ -156,11 +156,11 @@ Material:
     - _EnableExternalAlpha: 0
     - _ExteriortextureOnOff: 0
     - _Exteriorwallstiling: 0
-    - _Fuzziness: 0
+    - _Fuzziness: 1.95
     - _GlossMapScale: 1
     - _Glossiness: 0.467
     - _GlossyReflections: 0
-    - _HueRange: 0.45
+    - _HueRange: 0.75
     - _IndexofRefraction: 1
     - _InteriortextureOnOff: 0
     - _Interiorwallstiling: 0
