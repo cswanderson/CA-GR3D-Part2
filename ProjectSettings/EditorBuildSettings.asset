@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TestS_Gr3d.unity
     guid: bbad892fb0f12e5408efb3b8910b3bd9
-  - enabled: 1
+  - enabled: 0
     path: Assets/apt1.unity
     guid: 89a209d2bceb99d47b2b3d0011cb73cb
   m_configObjects: {}
