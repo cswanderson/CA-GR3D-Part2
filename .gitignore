@@ -84,6 +84,9 @@ sysinfo.txt
 /[Aa]ssets/ArchVizPRO Interior Vol.5/
 /[Aa]ssets/Low-latency Multichannel Audio/
 /[Aa]ssets/LimitlessUnityDevelopment/
+/[Aa]ssets/AudioStream/
+/[Aa]ssets/Brick Project Studio/
+/TestBuilds/
 
 # Ignoring GR3D package since it's propietary. 
 # If your project launches with compile errors, 
@@ -91,3 +94,21 @@ sysinfo.txt
 # directory in the root folder of unity and 
 # then try launching the project again
 Packages/com.mechdyne.getreal3d-4.3.0.4063.tgz
+
+# Never ignore DLLs in the FMOD subfolder.
+!/[Aa]ssets/Plugins/FMOD/**/lib/*
+
+# Don't ignore images and gizmos used by FMOD in the Unity Editor.
+!/[Aa]ssets/Gizmos/FMOD/*
+!/[Aa]ssets/Editor Default Resources/FMOD/*
+
+# Ignore the Cache folder since it is updated locally.
+/[Aa]ssets/Plugins/FMOD/Cache/*
+
+# Ignore bank files in the StreamingAssets folder.
+/[Aa]ssets/StreamingAssets/**/*.bank
+/[Aa]ssets/StreamingAssets/**/*.bank.meta
+
+# If the source bank files are kept outside of the StreamingAssets folder then these can be ignored.
+# Log files can be ignored.
+fmod_editor.log
